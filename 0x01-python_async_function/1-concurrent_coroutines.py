@@ -4,7 +4,7 @@
 from typing import List
 
 
-''' Import wait_random from the previous python file that youve
+''' Import wait_random from the previous python file that you’ve
     written and write an async routine called wait_n that takes
     in 2 int arguments (in this order): n and max_delay. You will
     spawn wait_random n times with the specified max_delay.
@@ -27,8 +27,6 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
         i += 1
 
     return sorted(delay_list)
-
-
 
 
 if __name__ == '__main__':
