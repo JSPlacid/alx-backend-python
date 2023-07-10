@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+
 import asyncio
 import time
 
@@ -28,3 +29,4 @@ def measure_time(n: int, max_delay: int) -> float:
 if __name__ == '__main__':
     print(measure_time(5, 3))
     print(measure_time(5, 9))
+    
